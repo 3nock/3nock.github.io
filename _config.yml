@@ -18,9 +18,9 @@ timezone: Africa/Dar-es-Salaam
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 3nock Blog                          # the main title
+title: 3nock's Blog                          
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: A personal blog for Cyber Seucrity related issues
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
