@@ -1,10 +1,18 @@
-_site/*
-_theme_packages/*
+# hidden files
+.*
+!.git*
+!.editorconfig
+!.nojekyll
+!.travis.yml
 
-Thumbs.db
-.DS_Store
+# bundler cache
+_site
+vendor
+Gemfile.lock
 
-!.gitkeep
+# rubygem
+*.gem
 
-.rbenv-version
-.rvmrc
+# npm dependencies
+node_modules
+package-lock.json
