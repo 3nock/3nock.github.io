@@ -1,3 +1,9 @@
+---
+title: Sub3 Suite
+icon: fas fa-info-circle
+order: 1
+---
+
 # Getting started with [Sub3 Suite](https://github.com/3nock/sub3suite)
 
 ## Launching 
