@@ -47,20 +47,20 @@ You can choose from the following options to create or open a project:
 
 Use the links below for further help on Sub3 Suite Engines:
 
-1. [OSINT](sub3suite/engines/osint) Engine.
-2. [RAW](sub3suite/engines/raw) Engine.
-3. [BRUTE](sub3suite/engines/brute) Engine.
-4. [ACTIVE](sub3suite/engines/active) Engine.
-5. [DNS](sub3suite/engines/dns) Engine.
-6. [SSL](sub3suite/engines/ssl) Engine.
-7. [URL](sub3suite/engines/url) Engine.
+1. [OSINT](sub3suite/engines/osint.md) Engine.
+2. [RAW](sub3suite/engines/raw.md) Engine.
+3. [BRUTE](sub3suite/engines/brute.md) Engine.
+4. [ACTIVE](sub3suite/engines/active.md) Engine.
+5. [DNS](sub3suite/engines/dns.md) Engine.
+6. [SSL](sub3suite/engines/ssl.md) Engine.
+7. [URL](sub3suite/engines/url.md) Engine.
 
 Use the links below for further help on Sub3 Suite Enumerators:
 
-1. [IP](sub3suite/enums/ip) Enumerator.
-2. [ASN](sub3suite/enums/asn) Enumerator.
-3. [CIDR](sub3suite/enums/cidr) Enumerator.
-4. [NS](sub3suite/enums/ns) Enumerator.
-5. [MX](sub3suite/enums/mx) Enumerator.
-6. [SSL](sub3suite/enums/ssl) Enumerator.
-7. [EMAIL](sub3suite/enums/email) Enumerator.
+1. [IP](sub3suite/enums/ip.md) Enumerator.
+2. [ASN](sub3suite/enums/asn.md) Enumerator.
+3. [CIDR](sub3suite/enums/cidr.md) Enumerator.
+4. [NS](sub3suite/enums/ns.md) Enumerator.
+5. [MX](sub3suite/enums/mx.md) Enumerator.
+6. [SSL](sub3suite/enums/ssl.md) Enumerator.
+7. [EMAIL](sub3suite/enums/email.md) Enumerator.
