@@ -1,7 +1,6 @@
 ---
 layout: default
 title:  "Getting Started with Sub3 Suite"
-categories: Sub3 Suite
 regenerate: true
 ---
 
