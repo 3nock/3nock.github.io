@@ -1,0 +1,126 @@
+---
+layout: default
+title:  "BRUTE ENGINE"
+regenerate: true
+---
+
+<h1> BRUTE ENGINE </h1><br>
+
+<i><b> Disclaimer 1:</b> This is a very simple documentation on the Tool. It still doesn't contain many information on the many features of the tool & on how to effectively use the tool.<br>
+Help improve the <a href=https://github.com/3nock/s3s_doc> documentation </a>.</i><br><br>
+
+<i><b> Disclaimer 2:</b> Incase of an unexpected error or erronous results please reach out by openning an <a href=https://github.com/3nock/sub3suite/issues>issue</a> on the repo or on <a href=https://t.me/sub3suite>Telegram</a> chat</i>.
+
+<h2> What is? </h2>
+The BRUTE Engine performs subdomain & TLD enumeration by bruteforce.<br>
+Performs DNS lookup on subdomain & TLD created by appending the words from wordlist to the
+target.<br>
+The tool accomplishes this by resolving the targets using the public nameservers or internal nameservers as provided
+by the user.<br><br>
+The domains are resolved to either A(ipv4) or AAAA(ipv6) dns records depending on the scan configuration by user.<br>
+The resolved subdomains or TLDs does not necessarily mean the targets are active but an indicator that they can be resolved by
+the particular nameservers.<br><br>
+
+This Tool uses multiple threads as alocated by the user to perform DNS lookup on targets also support use of multiple nameservers as provided
+by the user or default list by s3s.<br><br>
+
+You can obtain Passive Domains/Hostnames from the <a href=../engines/osint.html>OSINT Engine</a> of Sub3 Suite
+
+<h2> Features </h2>
+1. Supports use of multiple nameservers.<br>
+2. Supports A(ipv4) and AAAA(ipv6) dns records lookups.<br>
+3. Supports subdomain(e.g. *.example.com) and Top-level-domain(TLD e.g. example.*) bruteforcing.<br>
+4. Supports multiple Targets lookup in one scan (one target after another).<br>
+5. Has a simple wordlist generator(still an early feature, will be advanced later).
+
+<h2> Input Output: </h2><br>
+<b> Input: </b> Domain/Hostname<br>
+<b> Output: </b> Resolved Domain, IPv4 & IPv6<br>
+
+<h2> Scan Configuration values: </h2><br>
+
+<img src=images/brute_config.png><br><br>
+
+<b> Threads - </b> Number of threads to use for quering the targets. If number of threads is greater that the number of targets, then one thread per target will be used.
+<b> Timeout - </b> Time for performing the lookup in milliseconds (terminates connection if timeout). It is advised for the timeout to be greater than 1000<br>
+<b> Record Type - </b> Record Type to lookup, A(IpV4), AAAA(IpV6), ANY(IpV4 and/or IpV6).<br>
+<b> Wildcard - </b> Check if you want to detect and mitigate wildcards e.g *.example.com<br>
+<b> No Duplicates - </b> Check to avoid duplicated results of the target<br>
+<b> AutoSave To Project - </b> Sends the obtained results directly to the project explorer as the scan progresses<br><br>
+
+<img src=images/brute_nameservers.png><br><br>
+
+<b> Nameservers - </b> - Nameservers to use for DNS lookup. You can choose; <br>
+<b><i>single nameserver:</i></b> by checking the single nameserver radio-button and choose the nameserver in the combo-box<br>
+<b><i>random nameserver:</i></b> by checking the random nameserver radio-button and Sub3 Suite will use its default set of nameservers, assigning them randomly<br>
+<b><i>custom nameserver:</i></b> by checking the random nameserver radio-button and enter the ip addresses of the nameservers you want to use<br>
+
+<h2> Wordlist </h2>
+Wordlist for bruteforcing subdomain names. Sub3 Suite has a wordlist feature where you can choose or generate wordlist for bruteforcing subdomains/TLD<br><br>
+
+<h3> In Choose </h3><br>
+
+<img src=images/brute_choose_wl.png><br><br>
+You have the option to choose <b><i>Default wordlist</i></b> that comes with with Sub3 Suite or <b><i>Custom wordlist</i></b> which you have saved<br><br>
+
+<img src=images/brute_custom_wl.png><br>
+An option to create and save a new custom wordlist that you can use later on<br><br>
+
+<h3> In Generate </h3>
+
+You can generate wordlist from within Sub3 Suite;<br><br>
+
+<img src=images/brute_generate_wl.png><br><br>
+
+To Generate wordlist, <b>check the box</b> of the type of wordlist you want to generate enter the required information and generate.<br>
+<b><i>A-Z: </i></b> Generates worldist by combining the alphabet characters. Enter the number of combinations you want and generate ie. <b>1:</b> no combination e.g A, B, C etc <b>2: </b> combination of two alphabets e.g. AA, AB, AC etc. It is recomended to to put a combination count of more than 5 as it will weigh down on the machine's processing power and memory<br>
+<b><i>Numbers: </i></b> Generates numbers as a wordlist. Any range of numbers can be generated.<br>
+<b><i>Dates: </i></b> Generates dates as a wordlist.<br>
+<b><i>Substitution(hymoglyphs): </i></b> Generate wordlist by substituting characters from the input wordlist creating hymoglyphs wordlist. e.g. if you <b>input:</b> <i>google.com</i> it will <b>output:</b> <i>go0gle.com,go0gle.com,g00gle.com,qoogle.com,q00gle.com</i> etc. It is recommended
+not to input a large wordlist for substitution wordlist generation as it takes much computing power and memory.
+
+<h2> Usage & Examples</h2>
+
+1. Choose the <b>output(scan type)</b> first. <b>Subdomain: </b> does subdomain enumeration and <b>TLD:</b> does Top level domain enumeration<br><br>
+
+<img src=images/brute_output.png><br><br>
+
+2. <b>Enter/Choose/Generate</b> wordlist to be used for bruteforcing.<br><br>
+
+<img src=images/brute_wordlist.png><br><br>
+
+3. Enter Target/Targets:<br><br>
+
+	a. for <b>single target</b> just enter the targets on the lineEdit.<br><br>
+	
+	<img src=images/brute_target.png><br><br>
+	
+	b. For <b>multiple targets</b>; check the <b>Multiple Targets</b> checkbox, add your targets to the listView.<br><br>
+	
+	<img src=images/brute_targets.png><br><br>
+	
+4. <b>Start</b> scan. You can <b>Pause, Resume</b> and <b>Stop</b> the scan.<br><br>
+
+5. You can also <b>Re-Scan</b> failed scans(scans that returned an error) with different configurations.<br><br>
+
+<img src=images/brute_rescan.png><br><br>
+
+5. Several <b><i>Actions</b></i> can be performed on the obtained results.
+
+<h2> Actions: </h2>
+
+Details on the actions for the obtained results.<br><br>
+
+<img src=images/brute_actions.png><br><br>
+
+ - The Actions on Results are accessible via the <b>Actions ></b> button and <b>Right-Click</b> on the Results. & are only active when the results are present<br>
+
+1. <b> Clear: </b> Clears the results and the progress bar.<br>
+2. <b> Expand & Collapse: </b> Expands the all areas of the result tree and Collapse all areas of the result tree respectively<br>
+3. <b> Save: </b> Saves the obtained Results To a File. Saves in Json format<br>
+4. <b> Copy: </b> Copies the results on the clipboard. Copies in Json format<br>
+5. <b> Send To Project: </b> Sends the Obtained results to the project explorer.<br>
+5. <b> Send * To *: </b> Sends the Result Type to the choosen Engine/Enumerator.<br><br>
+
+<b> NOTE: </b><br>
+	If you have filtered the results using the filter. the above actions will only be performed on the remaing results after filter<br>

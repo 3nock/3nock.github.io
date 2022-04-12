@@ -1,0 +1,103 @@
+---
+layout: default
+title:  "DNS ENGINE"
+regenerate: true
+---
+
+<h1> DNS ENGINE </h1><br>
+
+<i><b> Disclaimer 1:</b> This is a very simple documentation on the Tool. It still doesn't contain many information on the many features of the tool & on how to effectively use the tool.<br>
+Help improve the <a href=https://github.com/3nock/s3s_doc> documentation </a>.</i><br><br>
+
+<i><b> Disclaimer 2:</b> Incase of an unexpected error or erronous results please reach out by openning an <a href=https://github.com/3nock/sub3suite/issues>issue</a> on the repo or on <a href=https://t.me/sub3suite>Telegram</a> chat</i>.
+
+<h2> What is? </h2>
+The DNS Engine resolves targets into specified DNS Records.<br>
+This Tool uses multiple threads as alocated by the user to perform enumeration on targets 
+also support use of multiple nameservers as provided by the user or default list by s3s.<br><br>
+
+Records Supported by DNS Engine:<br>
+--> <b> A Records</b>: ipv4 address.<br>
+--> <b> AAAA Records </b>: ipv6 address.<br>
+--> <b> NS Records </b>: Nameservers records.<br>
+--> <b> MX Records </b>: Mail Exchange records.<br>
+--> <b> CNAME Records </b>: Canonical records.<br>
+--> <b> TXT Records </b>: TXT Records.<br>
+--> <b> SRV Records </b>: Service Records.<br><br>
+
+NOTE:<br>
+--> SOA and PTR DNS records are not supported for now.<br><br>
+
+You can obtain Passive Domains/Hostnames from the <a href=../engines/osint.html>OSINT Engine</a> of Sub3 Suite
+
+<h2> Features </h2>
+1. Supports use of multiple nameservers.<br>
+2. Supports A(ipv4), AAAA(ipv6), NS, MX, TXT, CNAME and SRV dns records lookups.<br>
+3. Supports multiple Targets lookup in one scan.<br>
+4. SRV wordlist is also provided and can be modified as per user's liking<br>
+
+<h2> Input Output: </h2><br>
+<b> Input: </b> Domain/Hostname<br>
+<b> Output: </b> DNS Records: A,AAAA,NS,MX,SRV,TXT,CNAME,ANY
+
+<h2> Scan Configuration values: </h2><br>
+
+<img src=images/dns_config.png><br><br>
+
+<b> Threads - </b> Number of threads to use for quering the targets. If number of threads is greater that the number of targets, then one thread per target will be used.
+<b> Timeout - </b> Time for performing the lookup in milliseconds (terminates connection if timeout). It is advised for the timeout to be greater than 1000<br>
+<b> No Duplicates - </b> Check to avoid duplicated results of the target<br>
+<b> AutoSave To Project - </b> Sends the obtained results directly to the project explorer as the scan progresses<br><br>
+
+<img src=images/brute_nameservers.png><br><br>
+
+<b> Nameservers - </b> - Nameservers to use for DNS lookup. You can choose; <br>
+<b><i>single nameserver:</i></b> by checking the single nameserver radio-button and choose the nameserver in the combo-box<br>
+<b><i>random nameserver:</i></b> by checking the random nameserver radio-button and Sub3 Suite will use its default set of nameservers, assigning them randomly<br>
+<b><i>custom nameserver:</i></b> by checking the random nameserver radio-button and enter the ip addresses of the nameservers you want to use<br>
+
+<h2> Usage & Examples</h2>
+
+1. Choose the DNS Record you want to enumerate; <b>A,AAAA,NS,MX,CNAME,TXT,ANY,SRV</b> note that <b>ANY</b> and <b>SRV</b> Records can only be enumerated alone without other records checked<br><br>
+
+<img src=images/dns_output.png><br><br>
+
+2. Enter Target/Targets:<br><br>
+
+	a. for <b>single target</b> just enter the targets on the lineEdit.<br><br>
+	
+	<img src=images/dns_target.png><br><br>
+	
+	b. For <b>multiple targets</b>; check the <b>Multiple Targets</b> checkbox, add your targets to the listView.<br><br>
+	
+	<img src=images/dns_targets.png><br><br>
+	
+3. For SRV scan. input the srv wordlist to be used for SRV DNS lookup<br><br>
+
+<img src=images/dns_srv.png><br><br>
+
+4. <b>Start</b> scan. You can <b>Pause, Resume</b> and <b>Stop</b> the scan.<br><br>
+
+5. You can also <b>Re-Scan</b> failed scans(scans that returned an error) with different configurations.<br><br>
+
+<img src=images/brute_rescan.png><br><br>
+
+6. Several <b><i>Actions</b></i> can be performed on the obtained results.
+
+<h2> Actions: </h2>
+
+Details on the actions for the obtained results.<br><br>
+
+<img src=images/dns_actions.png><br><br>
+
+ - The Actions on Results are accessible via the <b>Actions ></b> button and <b>Right-Click</b> on the Results. & are only active when the results are present<br>
+
+1. <b> Clear: </b> Clears the results and the progress bar.<br>
+2. <b> Expand & Collapse: </b> Expands the all areas of the result tree and Collapse all areas of the result tree respectively<br>
+3. <b> Save: </b> Saves the obtained Results To a File. Saves in Json format<br>
+4. <b> Copy: </b> Copies the results on the clipboard. Copies in Json format<br>
+5. <b> Send To Project: </b> Sends the Obtained results to the project explorer.<br>
+5. <b> Send * To *: </b> Sends the Result Type to the choosen Engine/Enumerator.<br><br>
+
+<b> NOTE: </b><br>
+	If you have filtered the results using the filter. the above actions will only be performed on the remaing results after filter<br>
