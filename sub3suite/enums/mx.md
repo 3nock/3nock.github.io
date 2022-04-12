@@ -16,7 +16,7 @@ In order for a computer system to function as a mail server, it must include mai
 For example, if the server hosts the domain name "techterms.com," it can provide email accounts ending in "@techterms.com.".
 [reference](https://techterms.com/definition/mail_server).
 
-You can obtain MailServer of a domain using the [DNS Engine](../engines/dns.md) of Sub3 Suite
+You can obtain MailServer of a domain using the [DNS Engine](/sub3suite/engines/dns.md) of Sub3 Suite
 
 **MX Enumerator -** Is Used to return list  of domains that share the same primary mail server. 
 sub3suite's MX Enumerator queries this data from OSINT sources that provide reverse MailServer lookup.

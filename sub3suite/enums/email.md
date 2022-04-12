@@ -15,7 +15,7 @@ regenerate: true
 Email uses multiple protocols within the TCP/IP suite. For example, SMTP is used to send messages, while the POP or IMAP protocols are used to retrieve messages from a mail server
 [reference](https://techterms.com/definition/email).
 
-You can obtain Emails of different target types using the [OSINT Engine](../engines/osint.md) of Sub3 Suite
+You can obtain Emails of different target types using the [OSINT Engine](/sub3suite/engines/osint.md) of Sub3 Suite
 
 **Email Enumerator -** Is used to return some useful information about the email. 
 sub3suite's Email Enumerator queries this data from OSINT sources that provide Email information lookup.

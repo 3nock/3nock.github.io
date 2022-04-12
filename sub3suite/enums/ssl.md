@@ -28,7 +28,7 @@ SSL Certificates store important information such as:
 
 sub3suite's SSL Enumerator pulls all the data from the SSL Certificate and present it in a very intuitive manner.
 
-You can obtain SSL from the [OSINT Engine](../engines/osint.md) and [SSL Engine](../engines/ssl.md) of Sub3 Suite
+You can obtain SSL from the [OSINT Engine](/sub3suite/engines/osint.md) and [SSL Engine](/sub3suite/engines/ssl.md) of Sub3 Suite
 
 ## Input Output 
 

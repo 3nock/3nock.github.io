@@ -17,7 +17,7 @@ Autonomous system numbers can be public or private. Public ASNs are required for
 A private ASN can be used instead if a system is communicating solely with a single provider via Border Gateway Protocol (BGP).
 [reference](https://blog.stackpath.com/autonomous-system-number).
 
-You can obtain ASN from the [OSINT Engine](../engines/osint.md) and [CIDR Enumerator](cidr.md) of Sub3 Suite
+You can obtain ASN from the [OSINT Engine](/sub3suite/engines/osint.md) and [CIDR Enumerator](cidr.md) of Sub3 Suite
 
 **ASN Enumerator -** Is Used to return list useful information about the ASN. 
 sub3suite's ASN Enumerator queries this data from OSINT sources that provide ASN Info lookup.

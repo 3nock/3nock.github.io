@@ -22,7 +22,7 @@ the particular nameservers.
 This Tool uses multiple threads as alocated by the user to perform DNS lookup on targets also support use of multiple nameservers as provided
 by the user or default list by s3s.
 
-You can obtain Passive Domains/Hostnames from the [OSINT Engine](../engines/osint.md) of Sub3 Suite
+You can obtain Passive Domains/Hostnames from the [OSINT Engine](/sub3suite/engines/osint.md) of Sub3 Suite
 
 ## Features 
 1. Supports use of multiple nameservers.

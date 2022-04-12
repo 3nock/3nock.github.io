@@ -26,7 +26,7 @@ Records Supported by DNS Engine:
 NOTE:
 --> SOA and PTR DNS records are not supported for now.
 
-You can obtain Passive Domains/Hostnames from the [OSINT Engine](../engines/osint.html) of Sub3 Suite
+You can obtain Passive Domains/Hostnames from the [OSINT Engine](/sub3suite/engines/osint.html) of Sub3 Suite
 
 ## Features 
 1. Supports use of multiple nameservers.

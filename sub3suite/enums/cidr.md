@@ -21,7 +21,7 @@ The size of CIDR blocks can be determined by the length of the prefix. A short p
 Blocks are initially handled by the Internet Assigned Numbers Authority (IANA). IANA is responsible for distributing large blocks of IP addresses to Regional Internet Registries (RIRs). These blocks are used for large geographical areas, such as North America, Africa and Europe.
 [reference](https://www.techtarget.com/searchnetworking/definition/CIDR).
 
-You can obtain CIDR from the [OSINT Engine](../engines/osint.md) and [ASN Enumerator](asn.html) of Sub3 Suite
+You can obtain CIDR from the [OSINT Engine](/sub3suite/engines/osint.md) and [ASN Enumerator](asn.html) of Sub3 Suite
 
 **CIDR Enumerator -** Is Used to return list useful information about the CIDR. 
 sub3suite's CIDR Enumerator queries this data from OSINT sources that provide CIDR Info lookup.

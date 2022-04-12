@@ -15,7 +15,7 @@ regenerate: true
 Each domain name must have at least two name servers listed when the domain is registered. These name servers are commonly named ns1.servername.com and ns2.servername.com, where "servername" is the name of the server. The first server listed is the primary server, while the second is used as a backup server if the first server is not responding.
 [reference](https://techterms.com/definition/nameserver).
 
-You can obtain NameServer of a domain using the [DNS Engine](../engines/dns.md) of Sub3 Suite
+You can obtain NameServer of a domain using the [DNS Engine](/sub3suite/engines/dns.md) of Sub3 Suite
 
 **NS Enumerator -** Is Used to return list  of domains that share the same primary name server. 
 sub3suite's NS Enumerator queries this data from OSINT sources that provide reverse Nameserver lookup.

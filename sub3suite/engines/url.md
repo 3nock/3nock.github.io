@@ -15,7 +15,7 @@ A URL is a specific type of Uniform Resource Identifier (URI), although many peo
 URLs occur most commonly to reference web pages (http/https) but are also used for file transfer (ftp), email (mailto), database access (JDBC), and many other applications.
 [reference](https://en.wikipedia.org/wiki/URL).
 
-You can obtain URL from the [OSINT Engine](./engines/osint.html) of Sub3 Suite
+You can obtain URL from the [OSINT Engine](/sub3suite/engines/osint.md) of Sub3 Suite
 
 ## Input Output 
 

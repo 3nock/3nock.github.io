@@ -15,7 +15,7 @@ regenerate: true
 Internet Protocol version 4 (IPv4) defines an IP address as a 32-bit number.[2] However, because of the growth of the Internet and the depletion of available IPv4 addresses, a new version of IP (IPv6), using 128 bits for the IP address, was standardized in 1998.
 [reference](https://en.wikipedia.org/wiki/IP_address).
 
-You can obtain IP from the [OSINT Engine](../engines/osint.md), [BRUTE Engine](../engines/brute.md) and [ACTIVE Engine](../engines/active.md) of Sub3 Suite
+You can obtain IP from the [OSINT Engine](/sub3suite/engines/osint.md), [BRUTE Engine](/sub3suite/engines/brute.md) and [ACTIVE Engine](/sub3suite/engines/active.md) of Sub3 Suite
 
 **IP Enumerator -** Is Used to return list useful information about the IP. 
 sub3suite's IP Enumerator queries this data from OSINT sources that provide Reverse IP Info lookup.
