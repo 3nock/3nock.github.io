@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: Docs
+  link: /docs/
+- name: Blog
+  link: /blog/
+- name: Github
+  link: https://github.com/3nock

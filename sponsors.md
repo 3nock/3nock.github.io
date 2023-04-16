@@ -1,9 +1,15 @@
 ---
 layout: page
-title: Sponsors Page
-subtitle: An example sponsors page
-sponsors: example_sponsors
+title: Sponsors
+subtitle: Organizations and individuals who are financially supporting the development of Spider Suite.
+sponsors: sponsors
 show_sidebar: false
 ---
 
-[View the sponsors docs](/bulma-clean-theme/docs/sponsors/)
+Wish to financially support the development of Spider Suite ?
+
+You can easily do so through:
+
+[paypal]()
+
+[bitcoin]()

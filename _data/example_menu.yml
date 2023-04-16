@@ -1,19 +1,8 @@
-- label: Example Menu
+- label: Menu
   items:
-    - name: Home
-      link: /
-    - name: Pages
-      link: /#
-      items:
-        - name: Landing Page With Callouts
-          link: /landing/
-        - name: Products
-          link: /products/
-        - name: Sponsors Page
-          link: /sponsors/
-        - name: Image Gallery
-          link: /gallery/
-        - name: Recipe Page
-          link: /example-recipe/
+    - name: Docs
+      link: /docs/
     - name: Blog
       link: /blog/
+    - name: Download
+      link: /download/
