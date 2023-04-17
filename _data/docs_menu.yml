@@ -18,7 +18,7 @@
     link: /docs/Configurations
     items:
         - name: Limits
-          link: docs/Configurations#limits-configuration
+          link: /docs/Configurations#limits-configuration
         - name: Crawler
           link: /docs/Configurations#crawler-configuration
         - name: Headers

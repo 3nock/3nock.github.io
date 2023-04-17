@@ -1,3 +1,12 @@
+---
+layout: page
+title: Analysis
+subtitle: Spider Suite crawler results analysis
+menubar: docs_menu
+show_sidebar: false
+toc: true
+---
+
 ## **Page Structure**
 
 Displays key data extracted from the page's request and response queries

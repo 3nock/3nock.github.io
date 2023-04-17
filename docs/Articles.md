@@ -1,3 +1,12 @@
+---
+layout: page
+title: Articles
+subtitle: Articles about Spider Suite
+menubar: docs_menu
+show_sidebar: false
+toc: true
+---
+
 ## Articles and Blog-Posts
 
 * _**Medium Blog: Introducing Spider Suite**_ (https://medium.com/3nock/Introducing_SpiderSuite)

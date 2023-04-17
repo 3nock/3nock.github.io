@@ -1,3 +1,12 @@
+---
+layout: page
+title: Installation
+subtitle: Spider Suite installation instructions
+menubar: docs_menu
+show_sidebar: false
+toc: true
+---
+
 Installing SpiderSuite involves a series of simple steps which must be completed in the correct
 sequence for the installation to be successful.
 

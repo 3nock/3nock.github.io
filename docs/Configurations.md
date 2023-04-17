@@ -1,3 +1,12 @@
+---
+layout: page
+title: Configuration
+subtitle: Spider Suite crawler configurations
+menubar: docs_menu
+show_sidebar: false
+toc: true
+---
+
 SpiderSuite Configurations are stored in json format in a SpiderSuite.conf configuration file that is located in the installation folder of SpiderSuite.
 
 You can easily modify the configuration values and save for the changes to take place. You can also easily reset the configurations to default values that come with SpiderSuite, any changes saved or reset will also reset the SpiderSuite.conf file.

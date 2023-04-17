@@ -1,3 +1,12 @@
+---
+layout: page
+title: Analysis
+subtitle: Spider Suite crawler documentation
+menubar: docs_menu
+show_sidebar: false
+toc: true
+---
+
 The crawl phase of a scan involves navigating around the target web application, following links and submitting forms to catalog the content of the entire target web application and the navigational paths within it to create an accurate map of the target web application.
 
 ## **Features Supported by Spider Suite Crawler**

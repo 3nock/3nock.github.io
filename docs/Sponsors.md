@@ -1,3 +1,12 @@
+---
+layout: page
+title: Sponsoring
+subtitle: Sponsoring Spider Suite
+menubar: docs_menu
+show_sidebar: false
+toc: true
+---
+
 The following organizations and individuals are/have financially supported Spider Suite's development.
 
 * Enock: [http://twitter.com/3nock_](http://twitter.com/3nock_)

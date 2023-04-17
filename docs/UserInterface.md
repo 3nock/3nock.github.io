@@ -1,3 +1,12 @@
+---
+layout: page
+title: User Interface
+subtitle: Spider Suite user interface
+menubar: docs_menu
+show_sidebar: false
+toc: true
+---
+
 ## **Main Window**
 SpiderSuite’s Main window contains the following information.
 

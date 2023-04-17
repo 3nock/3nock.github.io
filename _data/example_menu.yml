@@ -1,8 +1,0 @@
-- label: Menu
-  items:
-    - name: Docs
-      link: /docs/
-    - name: Blog
-      link: /blog/
-    - name: Download
-      link: /download/

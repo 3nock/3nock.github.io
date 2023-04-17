@@ -1,10 +1,10 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: ''
-assignees: ''
-
+layout: page
+title: Feature Request
+subtitle: Spider Suite feature request template
+menubar: docs_menu
+show_sidebar: false
+toc: true
 ---
 
 * **Is your feature request related to a problem? Please describe.**

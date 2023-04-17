@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Docs
+title: Spider Suite Documentation
 menubar: docs_menu
 show_sidebar: false
 ---

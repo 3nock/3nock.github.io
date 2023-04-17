@@ -2,12 +2,12 @@
   size: large
   description: |-
     Individuals and Organizations donating more than 500$
-  sponsors:
-    - name: Enock N. Michael
-      profile: https://github.com/3nock
 - tier_name: Gold Sponsors
   description: |-
     Individuals and Organizations donating more than from 100$ to 499$
+  sponsors:
+    - name: Enock N. Michael
+      profile: https://github.com/3nock
 - tier_name: Standard Sponsors
   size: small
   description: |-
