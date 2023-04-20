@@ -3,6 +3,10 @@ layout: page
 title: Spider Suite Documentation
 menubar: docs_menu
 show_sidebar: false
+hero_image: /img/hero4.png
+hero_height: is-medium
+hero_darken: true
+image: /img/hero4.png
 ---
 
 This documentation is the main source of documentation for users working with [Spider Suite](https://github.com/3nock/SpiderSuite).
