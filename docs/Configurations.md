@@ -89,7 +89,7 @@ Sets the maximum allowed length in bytes/characters for a URL link.
 ## **Crawler Configuration**
 Crawler specific configurations.
 
-<img src="./res/config_crawler.png">
+<img src="/docs/res/config_crawler.png">
 
 * **Use HTTP2:**
 
@@ -173,7 +173,7 @@ Configures which files types are allowed to be crawled. HTML files are crawled b
 ## **Request Headers Configuration**
 Crawler’s request headers configuration. 
 
-<img src="res/config_headers.png"/>
+<img src="/docs/res/config_headers.png"/>
 
 * **Request Headers:**
 
@@ -189,7 +189,7 @@ Check the (User Agent Header) checkbox to allow the use of user agents in crawli
 
 ## **Input Fields Configuration**
 
-<img src="res/config_inputs.png"/>
+<img src="/docs/res/config_inputs.png"/>
 
 Configures the default values for the listed common input name and types for HTML forms.
 When crawling the HTML forms, values from all empty input values will be filled by the values from this list. 
@@ -199,7 +199,7 @@ You can also parse and extract input fields from a URL automatically by fetching
 
 ## **Exclusion Configuration**
 
-<img src="res/config_exclusion.png"/>
+<img src="/docs/res/config_exclusion.png"/>
 
 Configures what link’s query parameters, paths, extensions and cookies should be excluded from crawling.
 
@@ -221,7 +221,7 @@ Configures the spider to exclude the chosen cookie patterns from the cookie jar.
 
 ## **Authentication Configuration**
 
-<img src="res/config_authentication.png"/>
+<img src="/docs/res/config_authentication.png"/>
 
 Configures the credentials for authenticated crawl. For current version 1.0.0 of SpiderSuite, it only supports standard based authentications which include `Basic`, `NTLM version 2`, `Digest-MD5` and `SPNEGO/Negotiate`.
 
@@ -231,7 +231,7 @@ Form based authentication will be introduced in the coming versions of SpiderSui
 
 ## **Proxy Configuration**
 
-<img src="res/config_proxy.png"/>
+<img src="/docs/res/config_proxy.png"/>
 
 Configures http and socks5 proxy connection for the crawler. In case of anonymity or integration with other tools such as Burp Suite & Zed Attack Proxy (ZAP) and bypassing various IP related crawling drawbacks.
 
@@ -239,13 +239,13 @@ All crawler request and responses will pass through the configured proxy.
 
 ## **Graph Configuration**
 
-<img src="res/config_graph.png"/>
+<img src="/docs/res/config_graph.png"/>
 
 Configures Graph visualizing the Crawled sitemap. You can modify the graph appearance on your own liking for better data presentation.
 
 ## **Configure Exports**
 
-<img src="res/config_exports.png"/>
+<img src="/docs/res/config_exports.png"/>
 
 Configures what data/information about a page should be exported on various export types.
 
@@ -255,7 +255,7 @@ This feature gives control to the user on what data to be included in the export
 
 ## **Passive Crawler Configuration**
 
-<img src="res/config_passive.png"/>
+<img src="/docs/res/config_passive.png"/>
 
 Configures the SpiderSuite passive crawler. 
 
@@ -265,7 +265,7 @@ Configures which pages (page type e.g. html, js, css ) are allowed to be added t
 
 ## **Misc Configuration**
 
-<img src="res/config_misc.png"/>
+<img src="/docs/res/config_misc.png"/>
 
 Miscellenious configurations
 
