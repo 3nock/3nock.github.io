@@ -13,7 +13,7 @@ You can easily modify the configuration values and save for the changes to take 
 
 ## **Limits Configuration:**
 Configures the Crawler’s limitations.
-<img src="res/config_limits.png"/>
+<img src="/docs/res/config_limits.png"/>
 
 * **Parallel Connections:**
 
@@ -89,7 +89,7 @@ Sets the maximum allowed length in bytes/characters for a URL link.
 ## **Crawler Configuration**
 Crawler specific configurations.
 
-<img src="res/config_crawler.png">
+<img src="./res/config_crawler.png">
 
 * **Use HTTP2:**
 

@@ -10,7 +10,7 @@ toc: true
 ## **Main Window**
 SpiderSuite’s Main window contains the following information.
 
-<img src="res/mainwindow.png"/>
+<img src="/docs/res/mainwindow.png"/>
 
 ## **Menu Bar Items**
 
