@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Analysis
-subtitle: Spider Suite crawler results analysis
 menubar: docs_menu
 show_sidebar: false
 toc: true

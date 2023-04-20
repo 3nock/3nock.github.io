@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Overview
-subtitle: Spider Suite overiew
 menubar: docs_menu
 show_sidebar: false
 toc: true

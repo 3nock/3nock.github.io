@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Articles
-subtitle: Articles about Spider Suite
 menubar: docs_menu
 show_sidebar: false
 toc: true

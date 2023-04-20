@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Installation
-subtitle: Spider Suite installation instructions
 menubar: docs_menu
 show_sidebar: false
 toc: true

@@ -1,6 +1,8 @@
+- name: Download
+  link: /download/
 - name: Docs
   link: /docs/
 - name: Blog
   link: /blog/
-- name: Download
-  link: /download/
+- name: About
+  link: /about/

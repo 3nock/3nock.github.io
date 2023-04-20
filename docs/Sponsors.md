@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Sponsoring
-subtitle: Sponsoring Spider Suite
 menubar: docs_menu
 show_sidebar: false
 toc: true

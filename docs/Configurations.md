@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Configuration
-subtitle: Spider Suite crawler configurations
 menubar: docs_menu
 show_sidebar: false
 toc: true

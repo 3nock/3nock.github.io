@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Feature Request
-subtitle: Spider Suite feature request template
 menubar: docs_menu
 show_sidebar: false
 toc: true

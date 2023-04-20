@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Tools
-subtitle: Spider Suite available tools
 menubar: docs_menu
 show_sidebar: false
 toc: true
