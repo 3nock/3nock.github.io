@@ -1,0 +1,12 @@
+style: is-light
+height: is-medium
+items:
+  - title: Github Repository
+    icon: fa-github
+    icon_brand: true
+    description: >
+      You can closely follow Spider Suite's development on it's Github repository.
+
+      It contains all the up to date documentation (wiki), all the binary releases for download and sooner the entire source code.
+    call_to_action_name: Visit Repository
+    call_to_action_link: https://github.com/3nock/SpiderSuite
