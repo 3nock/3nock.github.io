@@ -1,8 +1,15 @@
-- name: Download
-  link: /download/
-- name: Docs
+- name: Product
+  link: /#
+  dropdown:
+    - name: Download
+      link: /download/
+    - name: Features
+      link: /features/
+    - name: Gallery
+      link: /gallery/
+    - name: Sponsor
+      link: /sponsors/
+- name: Documentation
   link: /docs/
 - name: Blog
   link: /blog/
-- name: About
-  link: /about/
