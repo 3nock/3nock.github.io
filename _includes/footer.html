@@ -1,20 +1,32 @@
 <footer class="footer">
     <div class="container">
-        
-        {% if site.footer_menu %}
-        <div class="columns is-multiline">
-            {% for item in site.data[site.footer_menu] %}
-            <div class="column has-text-centered">
-                <div>
-                    <a href="{{ item.link | relative_url }}" class="link">{{ item.name }}</a>
-                </div>
+        <div id="blocks">
+            <!-- <div id="block1"><img src="/img/logos/Horizontal@2x.png" alt="MetaSLAM Logo" style="width:60%;"></div> -->
+            <div id="block2">
+              <center>
+                <a class="button" itemprop="mail" href="mailto:spid3rsuite@gmail.com" target="_blank">
+                    <i class="fab fa-envelope fa-lg"></i>
+                </a>
+                <a class="button" itemprop="twitter" href="https://www.twitter.com/spider_suite" target="_blank">
+                    <i class="fab fa-twitter fa-lg"></i>
+                </a>
+                <a class="button" itemprop="github" href="https://github.com/3nock/SpiderSuite" target="_blank">
+                    <i class="fab fa-github fa-lg"></i>
+                </a>
+                <a class="button" itemprop="instagram" href="https://instagram.com/SpiderSuite" target="_blank">
+                    <i class="fab fa-instagram fa-lg"></i>
+                </a>
+                <br>
+                <br>
+                <p class="">&copy; 2022 <a href="https://github.com/3nock/SpiderSuite">SpiderSuite</a> | <a href="https://github.com/3nock">Enock N.</a></p>
+              </center>
             </div>
-            {% endfor %}
+            <!-- <div id="block3"><img src="/img/riLogo2019.svg" alt="RI Logo" style="float: right;"></div> -->
         </div>
-        {% endif %}
-
+        <!--
         <div class="content is-small has-text-centered">
             <p class="">© 2022 <a href="https://github.com/3nock">Enock N.</a></p>
         </div>
+        -->
     </div>
 </footer>
