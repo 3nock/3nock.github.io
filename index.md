@@ -2,12 +2,11 @@
 title: Spider Suite
 subtitle: An advance web crawler/spider for cyber security professionals
 layout: page
-callouts: home_callouts
-show_sidebar: false
-hero_image: /img/hero_main.png
+show_sidebar: true
+hero_image: /img/hero0.png
 hero_height: is-medium
 hero_darken: true
-image: /img/hero_main.png
+image: /img/hero0.png
 ---
 
 # What is Spider Suite?
