@@ -13,11 +13,12 @@ image: /img/hero0.png
 
 Spider Suite is an advance multi-feature GUI web Crawler/Spider specially designed for cyber security professionals.
 
-Spider Suite is a cross platform and on premise tool currently supporting `Windows` and `Linux` operating systems. Writen in c++ using the Qt framework, Spider Suite is fast and highly intuitive with a simple design user interface.
+<img src="/img/screenshots.apng">
 
-With ease of installation and usage, you simply `download and execute (use)`.
+Spider Suite is a cross platform and on-premise tool currently supporting `Windows` and `Linux` operating systems. Writen in c++ using the Qt framework, Spider Suite is fast and highly intuitive with a simple-design user interface.
+
+With ease of installation and usage, you simply download and execute (use).
 
 See all the available [features](/features/)
 
-<img src="/img/screenshots.apng">
-
+## Contacts

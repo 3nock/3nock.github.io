@@ -8,11 +8,11 @@ description: >
 baseurl: "/"
 url: "https://3nock.github.io"
 permalink: pretty
-#favicon: /path/to/favicon.png
+favicon: /img/favicon.png
 #gh_sponsor: 3nock
 #hide_share_buttons: true
 theme_color: '#455350'
-#fixed_navbar: top
+fixed_navbar: top
 #direction: one of <ltr, rtl, auto>, default: ltr
 
 paginate: 5
@@ -72,7 +72,7 @@ defaults:
 markdown: kramdown
 highlighter: rouge
 
-footer_menu: footer_menu
+# footer_menu: footer_menu
 
 collections:
   products: 

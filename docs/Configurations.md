@@ -4,6 +4,10 @@ title: Configuration
 menubar: docs_menu
 show_sidebar: false
 toc: true
+hero_image: /img/hero4.png
+hero_height: is-medium
+hero_darken: true
+image: /img/hero4.png
 ---
 
 SpiderSuite Configurations are stored in json format in a SpiderSuite.conf configuration file that is located in the installation folder of SpiderSuite.

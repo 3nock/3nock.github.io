@@ -4,6 +4,10 @@ title: Feature Request
 menubar: docs_menu
 show_sidebar: false
 toc: true
+hero_image: /img/hero4.png
+hero_height: is-medium
+hero_darken: true
+image: /img/hero4.png
 ---
 
 * **Is your feature request related to a problem? Please describe.**

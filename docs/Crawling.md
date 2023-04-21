@@ -4,6 +4,10 @@ title: Analysis
 menubar: docs_menu
 show_sidebar: false
 toc: true
+hero_image: /img/hero4.png
+hero_height: is-medium
+hero_darken: true
+image: /img/hero4.png
 ---
 
 The crawl phase of a scan involves navigating around the target web application, following links and submitting forms to catalog the content of the entire target web application and the navigational paths within it to create an accurate map of the target web application.

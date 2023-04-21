@@ -3,6 +3,7 @@
         <div class="navbar-brand">
             <a href="{{ site.baseurl }}/" class="navbar-item">
                 {{ site.title }}
+                <!-- <i class="icon-spidersuite-logo is-size-3"></i></a> -->
             </a>
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
                 <span aria-hidden="true"></span>
@@ -12,7 +13,7 @@
         </div>
         <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
             <div class="navbar-start">
-                <a href="{{ site.baseurl }}/" class="navbar-item {% if page.url == "/" %}is-active{% endif %}">Home</a>
+                <!-- <a href="{{ site.baseurl }}/" class="navbar-item {% if page.url == "/" %}is-active{% endif %}">Home</a> -->
                 {% if site.data.navigation %}
                 {% for item in site.data.navigation %}
                     {% if item.dropdown %}
@@ -34,9 +35,9 @@
             <div class="navbar-end">
                 <a class="navbar-item" href="https://github.com/3nock/SpiderSuite" target="_blank">
                     <i class="fab fa-github"></i></a>
-                <a class="navbar-item" href="https://www.twitter.com/SpiderSuite" target="_blank">
+                <a class="navbar-item" href="https://www.twitter.com/spider_suite" target="_blank">
                     <i class="fab fa-twitter"></i></a>
-                <a class="navbar-item" href="https://t.me/spider_suite" target="_blank">
+                <a class="navbar-item" href="https://t.me/SpiderSuite" target="_blank">
                     <i class="fab fa-telegram-plane"></i></a>
                 <a class="navbar-item" href="https://3nock.github.io/sponsors/" target="_blank">
                     <i class="fa fa-heart" aria-hidden="true"></i></a>
