@@ -21,4 +21,3 @@ With ease of installation and usage, you simply download and execute (use).
 
 See all the available [features](/features/)
 
-## Contacts
