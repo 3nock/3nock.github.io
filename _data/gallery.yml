@@ -1,38 +1,35 @@
-- title: Image Gallery Title
+- title: Spider Suite's Sitemap View
   images:
-    - link: https://via.placeholder.com/400x225
-      large_link: https://via.placeholder.com/1200x675
-      alt: The alt text for the image
-      description: The image description
-      ratio: is-16by9
-    - link: https://via.placeholder.com/400x300
-      large_link: https://via.placeholder.com/1200x900
-      alt: The alt text for the image
-      description: The image description
-      ratio: is-4by3
-    - link: https://via.placeholder.com/400x300
-      large_link: https://via.placeholder.com/1200x900
-      alt: The alt text for the image
-      description: |-
-        ### A title
+    - link: /img/gallery/sitemap1.png
+      alt: sitemap1
+      description: Sitemap's List view
+    - link: /img/gallery/sitemap2.png
+      alt: sitemap2
+      description: Sitemap's Tree view
+    - link: /img/gallery/sitemap3.png
+      alt: sitemap3
+      description: Sitemap clicked page
 
-        The *image* **description** can be longer and written in markdown too.
-
-        If you want to describe your image in more detail.
-
-        * Item 1
-        * Item 2
-      ratio: is-4by3
-
-- title: Second Image Gallery Title
+- title: Spider Suite's Source View
   images:
-    - link: https://via.placeholder.com/800x450
-      alt: The alt text for the image
-      description: The image description
-    - link: https://via.placeholder.com/800x450
-      alt: The alt text for the image
-      description: The image description
-    - link: https://via.placeholder.com/800x450
-      alt: The alt text for the image
-      description: |-
-        The *image* **description**
+    - link: /img/gallery/source1.png
+      alt: source1
+      description: Source's Text view
+    - link: /img/gallery/source2.png
+      alt: source2
+      description: Source's Tree view
+    - link: /img/gallery/source3.png
+      alt: source3
+      description: Source's Hex view
+
+- title: Spider Suite's Graph View
+  images:
+    - link: /img/gallery/graph1.png
+      alt: graph1
+      description: SFDP graph with point nodes
+    - link: /img/gallery/graph2.png
+      alt: graph2
+      description: SFDP graph with rectangle nodes
+    - link: /img/gallery/graph3.png
+      alt: graph3
+      description: Dot graph with rectangle nodes
