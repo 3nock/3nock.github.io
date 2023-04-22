@@ -64,7 +64,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author: "C.S. Rhymes"
+      author: "Enock N."
       layout: post
       image: https://via.placeholder.com/1200x800
       show_sidebar: true

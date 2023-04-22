@@ -1,16 +1,13 @@
 ---
-title: First time crawling with SpiderSuite
-date:   2023-04-22 13:50:00
 layout: post
+title: First time crawling with SpiderSuite
 categories: tutorial
-description: "A brief guide on how to crawl a target site using SpiderSuite"
-image: 'https://3nock.github.io/img/blog/beginner_guide.png'
+description: A brief guide on how to crawl a target site using SpiderSuite
+image: https://3nock.github.io/img/blog/beginner_guide.png
 published: true
-canonical_url: https://3nock.github.io/tutorial/2023/04/22/beginner_guide.html
 hero_image: /img/hero3.png
 hero_height: is-medium
 hero_darken: true
-image: /img/hero3.png
 ---
 
 This guide is intended to serve as a basic introduction for using SpiderSuite to perform target site `crawling`, and `Bruteforcing`. This guide is especially useful if you are new to crawling with SpiderSuite. On that note, this document is not intended to be a comprehensive guide for using SpiderSuite.
