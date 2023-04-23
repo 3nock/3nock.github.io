@@ -3,12 +3,10 @@
   dropdown:
     - name: Download
       link: /download/
-    - name: Features
-      link: /features/
-    - name: Gallery
-      link: /gallery/
     - name: Sponsor
       link: /sponsors/
+    - name: Gallery
+      link: /gallery/
 - name: Documentation
   link: /docs/
 - name: Blog

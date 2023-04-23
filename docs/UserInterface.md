@@ -13,7 +13,7 @@ image: /img/hero4.png
 ## **Main Window**
 SpiderSuite’s Main window contains the following information.
 
-<img src="/docs/res/mainwindow.png"/>
+<center><img src="/docs/res/mainwindow.png"/></center>
 
 ## **Menu Bar Items**
 

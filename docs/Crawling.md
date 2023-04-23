@@ -34,11 +34,11 @@ To start crawling requires you to follow the following simple and few procedures
 * **Input the target link**
 
 The Target input box
-<img src="/docs/res/empty_input.png">
+<center><img src="/docs/res/empty_input.png"></center>
 
 Add the target input to the input box of Spider Suite.
 
-<img src="/docs/res/filled_input.png">
+<center><img src="/docs/res/filled_input.png"></center>
 
 _**Few things to Note:**_
 
@@ -84,7 +84,7 @@ The configurations that affect the crawler are:
 
 Start the crawler by clicking on the `Crawl` button and the crawler with immediately start crawling the target web application.
 
-<img src="/docs/res/crawling.png">
+<center><img src="/docs/res/crawling.png"></center>
 
 After starting the crawler, you can observer the crawler's `progress` on the far right corner which shows the number of pages crawled per all the pages available:
 
@@ -110,11 +110,11 @@ After pressing `Stop` button the crawler immediately stops sending the requests 
 
 After stopping the crawler you may be prompted to save all the remaining target links that had'nt been crawled yet.
 
-<img src="/docs/res/queued_links_prompt.png">
+<center><img src="/docs/res/queued_links_prompt.png"></center>
 
 If you accept all the pending links will be added to the passive crawler tab.
 
-<img src="/docs/res/passive_sitemap.png">
+<center><img src="/docs/res/passive_sitemap.png"></center>
 
 If you deny all the pending links will be discarded.
 

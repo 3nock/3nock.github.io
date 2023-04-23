@@ -12,8 +12,9 @@ image: /img/hero4.png
 
 ## Articles and Blog-Posts
 
-* _**Medium Blog: Introducing Spider Suite**_ (https://medium.com/3nock/Introducing_SpiderSuite)
+* _**SpiderSuite's Blog: First time crawling with SpiderSuite**_ ()
+* _**Medium Blog: Introducing Spider Suite**_ ()
 
 ## Release overviews
 
-* _**3nock's Blog : what's new in [Spider Suite 1.0.0](https://3nock.github.io/SpiderSuite/Releases)**_
+* _**SpiderSuite's Blog : what's new in [Spider Suite v1.0.0]()**_
