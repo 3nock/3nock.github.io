@@ -1,6 +1,6 @@
 # Site Settings
 lang: en
-title: 3nock
+title: Profile
 tagline: 3nock
 email: enock.n.michael@gmail.com
 description: >
@@ -11,7 +11,7 @@ permalink: pretty
 favicon: /img/favicon.png
 #gh_sponsor: 3nock
 #hide_share_buttons: true
-theme_color: '#080808'
+theme_color: '#202020'
 fixed_navbar: top
 #direction: one of <ltr, rtl, auto>, default: ltr
 

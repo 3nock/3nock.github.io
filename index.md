@@ -2,10 +2,7 @@
 title: Enock's Profile and Blog
 layout: page
 show_sidebar: true
-hero_image: /img/hero0.png
-hero_height: is-small
-hero_darken: true
-image: /img/hero0.png
+hero_height: is-medium
 ---
 
 <center><img src="/img/enock.png" width="300" alt="Me"></center>
