@@ -1,45 +1,30 @@
 ---
-title: SpiderSuite
-subtitle: An advance web crawler/spider for cyber security professionals
+title: Enock's Profile and Blog
 layout: page
 show_sidebar: true
 hero_image: /img/hero0.png
-hero_height: is-medium
+hero_height: is-small
 hero_darken: true
 image: /img/hero0.png
 ---
 
-## What is Spider Suite?
+<center><img src="/img/enock.png" width="300" alt="Me"></center>
 
-Spider Suite is an advance multi-feature GUI web Crawler/Spider specially designed for cyber security professionals.
+# About Me
+{: style="text-align: center;"}
 
-<center><img src="/img/screenshots.apng"></center>
+Hi, my name is Enock Nicholaus Michael. I am a graduate Molecular Biologist and a self taught software developer currently residing in Dar es Salaam, Tanzania.
 
-Spider Suite is a cross platform and on-premise tool currently supporting `Windows` and `Linux` operating systems. Writen in c++ using the Qt framework, Spider Suite is fast and highly intuitive with a simple-design user interface.
+I am very interested in writing software solutions that aid researchers in their work. 
 
-With ease of installation and usage, you simply download and execute (use).
+I have recently developed a research grade software [Spider Suite](https://github.com/3nock/SpiderSuite) (An adavance web crawler/spider for cyber security professionals) and it is currently free and publicly available for download and use.
 
-## Why use Spider Suite?
+I contribute to many open source projects at my free time as I am a firm believer in open source softwares. I love to code in C++ and Python and i have authored many mini and big software projects in those languages though I am down to work with any programming language.
 
-Spider Suite offers advance and competitive capabilities not available on other solutions of the same domain.
-- You can crawl an entire target site with just a simple click.
-- You can easily analyze contents extracted from crawled pages.
-- You can visualize the entire crawled surface on an interactive graph.
-- You can import and visualize content extracted from other tools such as [Burp Suite](https://portswigger.net/burp), [OWASP ZAP](https://www.zaproxy.org/), [Fiddler](https://www.telerik.com/fiddler), [Katana](https://github.com/projectdiscovery/katana), [Caido](https://caido.io/) and many more.
-- You can easily save a crawl session on database to be used later on.
+On my journey as a self-taught software developer i have picked up many invaluable skills and knowledge that has helped me grow as not only a reseacher but engineer.
 
-## When to use Spider Suite?
+`Bioinformatics`, `Cyber Security` and `Reverse Engineering` are my main field of work that i have spent years honing my skills in those areas. 
 
-Spider Suite can be used at various stages when performing security research on a target.
+Besides work and studies, I love writing articles and blog post in my free time while listening to good music.
 
-- Use Spider Suite to map the entire attack surface of the target.
-- Use Spider Suite to analyze individual pages within the attack surface.
-- Use Spider Suite to visualize attack surfaces produced by other tools.
-
-## How to support development of Spider Suite?
-
-You as an individual or organization with passion for development of cyber security solutions can have a hand in supporting the development of Spider Suite software.
-
-- Have a skill? Checkout how you can [contribute](https://github.com/3nock/SpiderSuite/CONTRIBUTING.md) to the development of Spider Suite.
-
-- Want to support Spider Suite financially?  Consider [sponsoring](/sponsors/) the project.
+Please feel free to contact me for any inquiry.

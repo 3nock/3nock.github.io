@@ -1,2 +1,2 @@
 # 3nock.github.io
-Spider Suite's Main Landing Page.
+Personal Profile and Blog

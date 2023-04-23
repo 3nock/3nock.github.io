@@ -1,17 +1,17 @@
 # Site Settings
 lang: en
-title: SpiderSuite
-tagline: Spider Suite
+title: 3nock
+tagline: 3nock
 email: enock.n.michael@gmail.com
 description: >
-  The landing page for Spider Suite software.
+  Enock's Profile and Blog
 baseurl: "/"
 url: "https://3nock.github.io"
 permalink: pretty
 favicon: /img/favicon.png
 #gh_sponsor: 3nock
 #hide_share_buttons: true
-theme_color: '#455350'
+theme_color: '#080808'
 fixed_navbar: top
 #direction: one of <ltr, rtl, auto>, default: ltr
 
@@ -64,7 +64,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author: "Enock N."
+      author: "Enock N. Michael"
       layout: post
       image: https://via.placeholder.com/1200x800
       show_sidebar: true
