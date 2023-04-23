@@ -3,12 +3,10 @@ title: SpiderSuite
 subtitle: An advance web crawler/spider for cyber security professionals
 layout: page
 show_sidebar: true
-hero_image: /img/hero5.png
-hero_height: is-large
-hero_link: /#What is Spider Suite
-hero_link_text: Get Started
+hero_image: /img/hero0.png
+hero_height: is-medium
 hero_darken: true
-image: /img/hero5.png
+image: /img/hero0.png
 ---
 
 ## What is Spider Suite?
@@ -42,6 +40,6 @@ Spider Suite can be used at various stages when performing security research on 
 
 You as an individual or organization with passion for development of cyber security solutions can have a hand in supporting the development of Spider Suite software.
 
-Have a skill? Checkout how you can [contribute](https://github.com/3nock/SpiderSuite/CONTRIBUTING.md) to the development of Spider Suite.
+- Have a skill? Checkout how you can [contribute](https://github.com/3nock/SpiderSuite/CONTRIBUTING.md) to the development of Spider Suite.
 
-Want to support Spider Suite financially?  Consider [sponsoring](/sponsors/) the project.
+- Want to support Spider Suite financially?  Consider [sponsoring](/sponsors/) the project.
