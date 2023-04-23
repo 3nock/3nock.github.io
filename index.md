@@ -1,5 +1,5 @@
 ---
-title: Enock's Profile and Blog
+title: Enock's Profile
 layout: page
 show_sidebar: true
 hero_height: is-medium
