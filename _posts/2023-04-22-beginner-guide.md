@@ -5,7 +5,6 @@ categories: tutorial
 description: A brief guide on how to crawl a target site using SpiderSuite
 image: https://3nock.github.io/img/blog/beginner_guide.png
 published: true
-hero_image: /img/hero3.png
 hero_height: is-medium
 hero_darken: true
 ---

@@ -1,8 +1,8 @@
 ---
-title: Enock's Profile
+title: Profile
 layout: page
 show_sidebar: true
-hero_height: is-medium
+hero_height: is-small
 ---
 
 <center><img src="/img/enock.png" width="300" alt="Me"></center>
