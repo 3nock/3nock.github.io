@@ -1,7 +1,7 @@
 ---
-title: Enock N. Michael
-subtitle: Coding for fun and profit.
+subtitle: Developing research-grade solutions
 layout: page
+callouts: home_callouts
 show_sidebar: true
 hero_height: is-small
 ---
