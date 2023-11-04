@@ -11663,7 +11663,7 @@ a.has-text-danger-dark:hover,a.has-text-danger-dark:focus {
 
 .footer {
     color: #fff;
-    background-color: linear-gradient(45deg, #747457, #535456);
+    background: linear-gradient(45deg, #747457, #535456);
     padding: 3rem 1.5rem 3rem
 }
 
