@@ -1,4 +1,6 @@
 ---
+not_visible: true
+title: Enock N. Michael
 subtitle: Developing research-grade solutions
 layout: page
 callouts: home_callouts

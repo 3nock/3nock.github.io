@@ -1,8 +1,8 @@
 {% if page.callouts %}
     {% assign callouts=site.data.[page.callouts] %}
     <section class="hero {% if callouts.height %} {{ callouts.height }} {% else %} is-medium {% endif %} {{ callouts.style }}">
-        {% if callouts.head %}
-        <center><h2>{{ callouts.head}}</h2></center>
+        {% if callouts.title %}
+        <p class="title is-3 has-text-centered">{{ callouts.title}}</p>
         {% endif %}
         <div class="hero-body">
             <div class="container">

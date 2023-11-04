@@ -1,6 +1,6 @@
-style: is-dark
+style: is-light
 height: is-medium
-head: Active Projects
+title: Active Projects
 items:
   - title: SpiderSuite
     icon: /img/ssuite_logo.png

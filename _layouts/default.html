@@ -21,7 +21,6 @@
     {% unless page.hide_hero %}
         {% include hero.html %}
     {% endunless %}
-    {% include callouts.html %}
     <section class="section">
         <div class="container">
             <div class="columns is-multiline">
@@ -50,6 +49,7 @@
             </div>
         </div>
     </section>
+    {% include callouts.html %}
     {% unless page.hide_footer %}
         {% include footer.html %}
     {% endunless %}
