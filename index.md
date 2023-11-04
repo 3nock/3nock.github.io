@@ -1,5 +1,6 @@
 ---
-title: Enock's Profile
+title: Enock N. Michael
+subtitle: Coding for fun and profit.
 layout: page
 show_sidebar: true
 hero_height: is-small

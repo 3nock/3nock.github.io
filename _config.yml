@@ -1,17 +1,17 @@
 # Site Settings
 lang: en
-title: Profile
+title: Home
 tagline: 3nock
 email: enock.n.michael@gmail.com
 description: >
-  Enock's Profile and Blog
+  Enock N. Michael
 baseurl: "/"
 url: "https://3nock.github.io"
 permalink: pretty
 favicon: /img/favicon.png
 #gh_sponsor: 3nock
 #hide_share_buttons: true
-theme_color: '#202020'
+theme_color: 'linear-gradient(45deg, #747457, #535456)'
 fixed_navbar: top
 #direction: one of <ltr, rtl, auto>, default: ltr
 
