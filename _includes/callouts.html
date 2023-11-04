@@ -1,8 +1,8 @@
 {% if page.callouts %}
-    {% if callout.head %}
-        <center><h2>{{ callout.head}}</h2></center>
     {% assign callouts=site.data.[page.callouts] %}
     <section class="hero {% if callouts.height %} {{ callouts.height }} {% else %} is-medium {% endif %} {{ callouts.style }}">
+        {% if callouts.head %}
+            <center><h2>{{ callouts.head}}</h2></center>
         <div class="hero-body">
             <div class="container">
                 <div class="columns is-multiline is-centered">
