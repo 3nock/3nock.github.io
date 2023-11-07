@@ -12,6 +12,6 @@ items:
   - title: OSINT Template Engine
     icon: /img/ote_logo.png
     description: >
-      An open source, research-grade tool for gathering OSINT information using customizable templates
+      An open source tool for gathering OSINT data using customizable templates
     call_to_action_name: See OSINT Template Engine
     call_to_action_link: https://spidersuite.github.io/OTE
